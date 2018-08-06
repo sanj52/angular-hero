@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeroComponent } from './modules/hero/pages/hero/hero.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +16,7 @@ import { HeroComponent } from './modules/hero/pages/hero/hero.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
