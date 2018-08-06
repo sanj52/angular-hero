@@ -8,6 +8,6 @@ import { FormsModule }   from '@angular/forms';
     CommonModule,
     FormsModule
   ],
-  declarations: [HeroComponent]
+  declarations: []//remove Herocomponent
 })
 export class HeroModule { }
